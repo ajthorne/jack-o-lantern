@@ -49,3 +49,44 @@ h1 {
   left: 20%;
   top: 50px;
 }
+
+.pumpkin-eye::after {
+  content: '';
+  position: absolute;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid black;
+  right: 70px;
+  top: 50px;
+}
+
+.pumpkin-mouth {
+  background: black;
+  width: 85px;
+  height: 45px;
+  position: absolute;
+  left: 100px;
+  bottom: 67px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.pumpkin-mouth::before {
+  content: '';
+  position: absolute;
+  background: orange;
+  width: 15px;
+  height: 15px;
+  top: 0px;
+  left: 15px;
+}
+
+.pumpkin-mouth::after {
+  content: '';
+  position: absolute;
+  background: orange;
+  width: 15px;
+  height: 15px;
+  top: 0px;
+  right: 15px;
+}
